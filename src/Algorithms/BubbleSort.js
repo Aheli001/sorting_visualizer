@@ -2,8 +2,8 @@ import swap from "../Helper/Swap";
 
 export const getBubbleSortAnimations = (array, arraySize) => {
     const animations = [];
-    bubbleSort(array, arraySize, animations)
-    return animations
+    bubbleSort(array, arraySize, animations);
+    return animations;
 }
 
 function bubbleSort(array, arraySize, animations) {

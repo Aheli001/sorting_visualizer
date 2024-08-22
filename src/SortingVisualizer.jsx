@@ -53,7 +53,7 @@ const SortingVisualiser = () => {
         const [barOneIdx, barTwoIdx] = animations[i];
         const barOneStyle = arrayBars[barOneIdx].style;
         const barTwoStyle = arrayBars[barTwoIdx].style;
-        const color = i % 3 === 0 ? "turquoise" : "#a66cff";
+        const color = i % 3 === 0 ? "#135350" : "#45a29e";
         setTimeout(() => {
           barOneStyle.backgroundColor = color;
           barTwoStyle.backgroundColor = color;
@@ -110,7 +110,7 @@ const SortingVisualiser = () => {
         const [barOneIdx, barTwoIdx] = animations[i];
         const barOneStyle = arrayBars[barOneIdx].style;
         const barTwoStyle = arrayBars[barTwoIdx].style;
-        const color = i % 3 === 0 ? "turquoise" : "#a66cff";
+        const color = i % 3 === 0 ? "#135350" : "#45a29e";
         setTimeout(() => {
           barOneStyle.backgroundColor = color;
           barTwoStyle.backgroundColor = color;
@@ -221,6 +221,7 @@ const SortingVisualiser = () => {
               style={{
                 height: `${value}px`,
                 width: `${barWidth}px`,
+                backgroundColor: "#45a29e",
               }}
             ></div>
           );
